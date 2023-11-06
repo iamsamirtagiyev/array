@@ -2,7 +2,11 @@
 
 const array = [1, 2, 3, 4, 5]
 
-const newArray = array.reverse()
+const newArray = []
+
+for(let i = array.length - 1; i >= 0; i--){
+    newArray.push(array[i])
+}
 
 console.log(newArray)
 
@@ -10,8 +14,8 @@ console.log(newArray)
 
 const strArray = ["cat","mouse","panter","chicken"]
 
-strArray.shift()
-strArray.unshift("brid")
+strArray.pop()
+strArray.push("brid")
 
 console.log(strArray)
 
