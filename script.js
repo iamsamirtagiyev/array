@@ -14,7 +14,7 @@ console.log(newArray)
 
 const strArray = ["cat","mouse","panter","chicken"]
 
-strArray.pop()
+strArray.shift()
 strArray.push("brid")
 
 console.log(strArray)
